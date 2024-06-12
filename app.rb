@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def validar_whatsapp(numero)
   padrao = /^\(\d{2}\) \d \d{4}-\d{4}$/
   padrao.match?(numero)
